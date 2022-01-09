@@ -1,0 +1,25 @@
+.game{
+    position:absolute;
+    left:50%;
+    top:60%;
+    text-align:center;
+    transform:translate(-50%,-50%);
+    white-space:nowrap;
+  }
+input{
+    
+    border-radius:5px ;
+    width:200px;
+    height: 30px;
+}
+button{
+   
+    border-radius:5px ;
+    width:100px;
+    height: 30px;
+}
+
+i{
+    padding: 100%;
+    position: static;
+}
