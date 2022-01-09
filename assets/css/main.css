@@ -23,3 +23,23 @@ i{
     padding: 100%;
     position: static;
 }
+
+
+#buttonBar{
+	width:320px;
+}
+
+#btn1{
+	float:left;
+	text-align:left;
+}
+
+#btn2{
+	float:right;
+	text-align:center;
+}
+
+#btn3{
+	float:right;
+	text-align:right;
+}

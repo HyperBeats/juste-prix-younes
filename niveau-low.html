@@ -90,20 +90,17 @@
 
         <div id="fenetre">
             <div class="game">
-        <div class="outru glow"> <p>Choisissé votre niveau !</p></div>
+              <div class="outru glow"> <p>Entrez une valeur ! Entre 0 - 50</p>
+
         <div id ="containerflex">
-          <div class="bouton-aligne">
-            <button onclick="window.location.href='niveau-low.html'">Niveau 1</button>
-          </div><div class="bouton-aligne">
-            <button onclick="window.location.href='niveau-normal.html'">Niveau 2</button>
-          </div>
-          </div><div class="bouton-aligne">
-            <button onclick="window.location.href='niveau-hard.html'">Niveau 4</button>
-          </div>
+            <input id="input" type="text" placeholder="Entrez votre nombre" size="30"></input>
+            <button onclick = play();>Valider</button>
+        </div>
+        <span>
+        <button onClick="window.location.reload();">Rejouer</button>
+        <span>
+          <button onclick="window.location.href='index.html'">Retour</button>
 
-        
-
-         </div>
-      <span>
+<script src="assets/js/low.js"></script>
     </body>
 </html>
