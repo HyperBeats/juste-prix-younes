@@ -1,5 +1,5 @@
 var input = document.querySelector("#input");
-var nb = Math.floor(100*Math.random());  // modif la Valeur si vous voulez que le jeux soit plus compliqué
+var nb = Math.floor(1000*Math.random());  // modif la Valeur si vous voulez que le jeux soit plus compliqué
 input.addEventListener(play);
 
 function play(event){
